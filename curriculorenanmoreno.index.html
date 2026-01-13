@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Renan Moreno | Analista de Redes / NOC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #38bdf8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #020617, #0f172a);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 40px 16px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: var(--card);
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 20px 40px rgba(0,0,0,.4);
+    }
+
+    /* ===== HEADER COM FOTO ===== */
+
+    .header {
+      margin-bottom: 32px;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--accent);
+      box-shadow: 0 8px 20px rgba(0,0,0,.4);
+    }
+
+    @media (max-width: 600px) {
+      .profile {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      color: white;
+    }
+
+    .subtitle {
+      color: var(--accent);
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 6px 16px;
+      font-size: .95rem;
+      color: var(--muted);
+    }
+
+    /* ===== BOTÃO DOWNLOAD ===== */
+
+    .btn-download {
+      display: inline-block;
+      margin-top: 16px;
+      background: var(--accent);
+      color: #020617;
+      padding: 10px 18px;
+      border-radius: 10px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all .2s ease;
+    }
+
+    .btn-download:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(56,189,248,.3);
+    }
+
+    /* ===== SEÇÕES ===== */
+
+    section {
+      margin-bottom: 32px;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      margin-bottom: 12px;
+      border-left: 4px solid var(--accent);
+      padding-left: 10px;
+    }
+
+    p {
+      margin-bottom: 12px;
+      color: #d1d5db;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+      padding-left: 20px;
+      position: relative;
+      color: #d1d5db;
+    }
+
+    li::before {
+      content: "▹";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: bold;
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(56,189,248,.1);
+      color: var(--accent);
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: .85rem;
+      margin: 4px 6px 4px 0;
+    }
+
+    footer {
+      text-align: center;
+      font-size: .85rem;
+      color: var(--muted);
+      margin-top: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- ===== TOPO COM FOTO ===== -->
+    <header class="header">
+      <div class="profile">
+
+        <!-- 👇 COLE AQUI O LINK DA SUA FOTO -->
+        <img src="https://i.imgur.com/HPkkttl.jpeg"
+             alt="Foto de Renan Moreno"
+             class="avatar" />
+
+        <div>
+          <h1>Renan Moreno da Silva</h1>
+          <div class="subtitle">Analista de Redes / Operador de NOC</div>
+
+          <div class="info">
+            <div>📍 Barra do Choça – BA</div>
+            <div>📞 (77) 9 9127-0972</div>
+            <div>✉️ renanmorenodigital@gmail.com</div>
+            <div>🚗 CNH A/B</div>
+          </div>
+
+          <!-- BOTÃO DE DOWNLOAD DO PDF -->
+          <a href="curriculo-renan.pdf" download class="btn-download">
+            ⬇️ Baixar currículo em PDF
+          </a>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- ===== OBJETIVO ===== -->
+    <section>
+      <h2>Objetivo</h2>
+      <p>
+        Atuar como <strong>Analista de Redes / Operador de NOC</strong>, contribuindo com
+        monitoramento de redes, suporte técnico e análise de incidentes, aplicando minha
+        formação em <strong>Tecnologia da Informação</strong> e experiência em ambientes
+        de alta responsabilidade operacional.
+      </p>
+    </section>
+
+    <!-- ===== FORMAÇÃO ===== -->
+    <section>
+      <h2>Formação</h2>
+      <p>
+        <strong>Tecnólogo em Análise e Desenvolvimento de Sistemas</strong><br />
+        Universidade Cruzeiro do Sul — Conclusão: 2024
+      </p>
+    </section>
+
+    <!-- ===== EXPERIÊNCIA ===== -->
+    <section>
+      <h2>Experiência Profissional</h2>
+      <p>
+        <strong>Cartório de Notas e Protesto de Títulos</strong> — Barra do Choça/BA<br />
+        Escrevente Notarial / Substituto da Tabeliã — 2020 até o momento
+      </p>
+
+      <ul>
+        <li>Organização e controle de processos críticos, garantindo continuidade dos serviços</li>
+        <li>Atuação em ambiente de alta demanda, com foco em agilidade e precisão</li>
+        <li>Suporte a sistemas internos e plataformas digitais</li>
+        <li>Monitoramento de fluxos operacionais e identificação de falhas</li>
+        <li>Atendimento técnico ao público, com resolução de demandas</li>
+        <li>Liderança de equipe e gestão de rotinas e incidentes administrativos</li>
+      </ul>
+    </section>
+
+    <!-- ===== CURSOS ===== -->
+    <section>
+      <h2>Cursos em TI</h2>
+      <div>
+        <span class="badge">Redes de Computadores</span>
+        <span class="badge">Auditoria em TI</span>
+        <span class="badge">Empreendedorismo</span>
+      </div>
+    </section>
+
+    <!-- ===== COMPETÊNCIAS ===== -->
+    <section>
+      <h2>Competências Técnicas</h2>
+      <ul>
+        <li>Fundamentos de Redes de Computadores</li>
+        <li>Noções de infraestrutura de TI e suporte técnico</li>
+        <li>Monitoramento de processos operacionais</li>
+        <li>Análise de falhas e melhoria contínua</li>
+        <li>Uso de sistemas e plataformas digitais</li>
+        <li>Rápida adaptação a novas tecnologias</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Competências Comportamentais</h2>
+      <ul>
+        <li>Responsabilidade e confiabilidade</li>
+        <li>Comunicação clara e objetiva</li>
+        <li>Perfil analítico e orientado a soluções</li>
+        <li>Trabalho sob pressão</li>
+        <li>Proatividade e aprendizado contínuo</li>
+        <li>Postura ética e profissional</li>
+      </ul>
+    </section>
+
+    <footer>
+      © 2026 — Renan Moreno • Currículo online
+    </footer>
+
+  </div>
+
+</body>
+</html>
